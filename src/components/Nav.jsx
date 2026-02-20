@@ -6,7 +6,7 @@ export const Nav = () => {
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            <h1>Welcome To My Online Store</h1>
+            <h1>Welcome To My Restaurant</h1>
           </a>
           <button
             className="navbar-toggler"
@@ -24,28 +24,28 @@ export const Nav = () => {
               
               <li className="nav-item">
                 <a className="nav-link" href="/breakfast">
-                  Breakfast
+                  🥐 Breakfast
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/lunch">
-                  Lunch
+                  🍜 Lunch
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/dinner">
-                  Dinner
+                  🍛 Dinner
                 </a>
               </li>
 
               <li className="nav-item">
                 <a className="nav-link" href="/drinks">
-                  Drinks
+                  🧋Drinks
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/invoice">
-                  Order
+                  🛒 Order
                 </a>
               </li>
             </ul>

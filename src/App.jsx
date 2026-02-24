@@ -9,6 +9,7 @@ import { Lunch } from "./pages/Lunch";
 import { Error } from "./pages/Error";
 import { Invoice } from "./pages/Invoice";
 import { Nav } from "./components/Nav";
+import { ChatBotPage } from "./pages/ChatBotPage";
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/nav" element={<Nav />} />
             <Route path="/invoice" element={<Invoice />} />
+            <Route path="/chatbot" element={<ChatBotPage />} />
+
           </Routes>
         </BrowserRouter>
       </main>

@@ -21,7 +21,6 @@ export const Nav = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
-              
               <li className="nav-item">
                 <a className="nav-link" href="/breakfast">
                   🥐 Breakfast
@@ -46,6 +45,11 @@ export const Nav = () => {
               <li className="nav-item">
                 <a className="nav-link" href="/invoice">
                   🛒 Order
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/chatbot">
+                  🤖 Chat
                 </a>
               </li>
             </ul>

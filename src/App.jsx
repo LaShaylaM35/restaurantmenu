@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { Home } from "./components/Home";
 import { Breakfast } from "./pages/Breakfast";
 import { Dinner } from "./pages/Dinner";
@@ -17,7 +17,7 @@ function App() {
       <Nav />
       <main className="container mt-3">
         <h1 className="title">Restaurant Menu</h1>
-        <BrowserRouter>
+        <HashRouter>
           <Routes>
             <Route path="*" element={<Error />} />
             <Route path="/breakfast" element={<Breakfast />} />
@@ -30,7 +30,7 @@ function App() {
             <Route path="/chatbot" element={<ChatBotPage />} />
 
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </main>
     </>
   );

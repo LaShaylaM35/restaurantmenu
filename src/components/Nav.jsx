@@ -22,33 +22,33 @@ export const Nav = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link" href="/breakfast">
+                <a className="nav-link" href="/#/breakfast">
                   🥐 Breakfast
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/lunch">
+                <a className="nav-link" href="/#/lunch">
                   🍜 Lunch
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/dinner">
+                <a className="nav-link" href="/#/dinner">
                   🍛 Dinner
                 </a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="/drinks">
+                <a className="nav-link" href="/#/drinks">
                   🧋Drinks
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/invoice">
+                <a className="nav-link" href="/#/invoice">
                   🛒 Order
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/chatbot">
+                <a className="nav-link" href="/#/chatbot">
                   🤖 Chat
                 </a>
               </li>
